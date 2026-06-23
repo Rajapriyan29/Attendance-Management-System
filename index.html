@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sample Management System</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1>Attendance Management System</h1>
+        </div>
+        <section>
+            <div class="background">
+                <div class="table">
+            <table>
+            <tr>
+                <td class="label">StudentName</td>
+                <td><input id="stname" type="text" placeholder="Enter a student name"></td>
+            </tr>
+            <tr>
+                <td class="label">Student ID</td>
+                <td><input id="stid" type="number" placeholder="Enter a student id"></td>
+            </tr>
+            <tr>
+                <td class="label">Attendence</td>
+                <td><input id="At" type="text" placeholder="Enter present or absent"></td>
+            </tr>
+        </div>
+        </table>
+        <div class="button">
+            <button onclick="AttendanceSubmitted()">Submit</button>
+        </div>
+        <div id="display"></div>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
